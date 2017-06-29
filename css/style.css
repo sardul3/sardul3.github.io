@@ -1,0 +1,111 @@
+
+
+
+
+.jumbotron{
+/*    margin-top: 10px;
+*/    background-image: url('../images/tunnel.jpg');
+}
+
+body{
+	margin: auto;
+	width: 100%;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+img{
+    width: 100%;
+}
+
+a:hover{
+	color:red;
+}
+
+i:hover{
+	background-color: yellow;
+}
+
+
+.text-center{
+    margin-top: auto;
+    color: black;
+    font-weight: 200em;
+    font-size: 25px;
+    font-family: Lekton,'Cabin','Inconsolata';
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_icons{
+    margin-left: 12%;
+}
+
+.icon{
+    padding: 10px 10px 10px 10px;
+}
+
+#copyright{
+    color: #ffffff;
+}
+
+
+
+.profile-image{
+    border-radius: 50% ;
+    border: 1px dotted blue;
+}
+
+ .profile-image:hover {
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+     -webkit-transition: -webkit-transform .3s ease-out;
+     -webkit-transition: transform .3s ease-out;
+     -moz-transition: transform .3s ease-out;
+     transition: transform .3s ease-out;
+     overflow: hidden;
+ }
+
+.name{
+    margin-top: 15px;
+}
+
+#divisor{
+
+    height:16px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+
+}
+
+#info{
+    margin-top: auto;
+}
+
+
+#skills{
+    position: relative;
+    display: none;
+}
+
+.pull-right, .pull_left{
+    margin:auto;
+}
+
+
+
+
+.copyright{
+	margin-top: 40px;
+	background-color: red;
+}
+
+
