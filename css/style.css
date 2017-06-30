@@ -43,6 +43,10 @@ i:hover{
   align-items: center;
 }
 
+.contact_info{
+    display: inline-block;
+}
+
 .contact_icons{
     margin-left: 12%;
 }
@@ -86,6 +90,14 @@ i:hover{
 
 }
 
+#divisor-w{
+    color: white;
+    height:7px;
+    background: white repeat-x 0 0;
+    border: 0;
+
+}
+
 #info{
     margin-top: auto;
 }
@@ -100,8 +112,9 @@ i:hover{
     margin:auto;
 }
 
-
-
+#contact_footer{
+    height:auto;
+}
 
 .copyright{
 	margin-top: 40px;
