@@ -29,11 +29,6 @@ a:hover{
 	color:red;
 }
 
-i:hover{
-	background-color: yellow;
-}
-
-
 .text-center{
     margin-top: auto;
     color: black;
@@ -69,10 +64,10 @@ i:hover{
 
 .profile-image{
     border-radius: 50% ;
-    border: 1px dotted blue;
+   /* border: 1px dotted blue;*/
 }
 
- .profile-image:hover {
+ /*.profile-image:hover {
      -webkit-transform: scale(1.2);
      -moz-transform: scale(1.2);
      -ms-transform: scale(1.2);
@@ -82,7 +77,7 @@ i:hover{
      -moz-transition: transform .3s ease-out;
      transition: transform .3s ease-out;
      overflow: hidden;
- }
+ }*/
 
 .name{
     margin-top: 15px;
@@ -127,6 +122,11 @@ i:hover{
 	background-color: red;
 }
 
+.img-fluid{
+    
+    height: 320px;
+    overflow: hidden;
+}
 
 
 
