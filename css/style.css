@@ -1,10 +1,15 @@
 
 
+figure, figcaption{
+    background-color:rgba(128, 234, 224, 0.75) !important;
+}
+
 
 
 .jumbotron{
 /*    margin-top: 10px;
 */    background-image: url('../images/tunnel.jpg');
+      background-attachment: fixed;
 }
 
 body{
@@ -48,7 +53,8 @@ i:hover{
 }
 
 .contact_icons{
-    margin-left: 12%;
+    margin-left: 6%;
+
 }
 
 .icon{
@@ -119,6 +125,15 @@ i:hover{
 .copyright{
 	margin-top: 40px;
 	background-color: red;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+   p{
+    font-size: 16px !important;
+   }
 }
 
 
