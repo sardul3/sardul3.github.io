@@ -8,8 +8,9 @@ figure, figcaption{
 
 .jumbotron{
 /*    margin-top: 10px;
-*/    background-image: url('../images/tunnel.jpg');
+*/    background-image: url('../images/web.jpg');
       background-attachment: fixed;
+      background-size: cover;
 }
 
 body{
@@ -29,6 +30,15 @@ a:hover{
 	color:red;
 }
 
+.img-fluid:hover{
+    .makeBorder();
+}
+
+.makeBorder{
+    p{
+    border: 100px solid black;
+}
+}
 .text-center{
     margin-top: auto;
     color: black;
@@ -51,6 +61,15 @@ a:hover{
     margin-left: 6%;
 
 }
+
+.heading{
+    padding: 20px;
+    font-weight: bold;
+    margin-top: auto;
+    font-weight: 200em !important;
+}
+
+
 
 .icon{
     padding: 10px 10px 10px 10px;
@@ -118,8 +137,10 @@ a:hover{
 }
 
 .copyright{
-	margin-top: 40px;
-	background-color: red;
+	margin-top: 20px;
+    margin-bottom: 0;
+	background-color: #f44336;
+
 }
 
 .img-fluid{
