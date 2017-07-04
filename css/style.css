@@ -5,18 +5,19 @@ figure, figcaption{
 }
 
 
-
 .jumbotron{
 /*    margin-top: 10px;
 */    background-image: url('../images/web.jpg');
-      background-attachment: fixed;
+      background-attachment: fixed !important;
       background-size: cover;
+      height: 90vh;
+      margin-bottom: 0;
 }
 
 body{
-	margin: auto;
-	width: 100%;
-    background: #ECE9E6;  /* fallback for old browsers */
+
+    padding: 0;	
+    background: #E6EFE9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -30,15 +31,6 @@ a:hover{
 	color:red;
 }
 
-.img-fluid:hover{
-    .makeBorder();
-}
-
-.makeBorder{
-    p{
-    border: 100px solid black;
-}
-}
 .text-center{
     margin-top: auto;
     color: black;
@@ -47,11 +39,6 @@ a:hover{
     font-family: Lekton,'Cabin','Inconsolata';
 }
 
-.jumbotron {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .contact_info{
     display: inline-block;
@@ -67,6 +54,9 @@ a:hover{
     font-weight: bold;
     margin-top: auto;
     font-weight: 200em !important;
+    font-size: 30px;
+
+
 }
 
 
@@ -83,6 +73,7 @@ a:hover{
 
 .profile-image{
     border-radius: 50% ;
+
    /* border: 1px dotted blue;*/
 }
 
@@ -100,6 +91,7 @@ a:hover{
 
 .name{
     margin-top: 15px;
+
 }
 
 #divisor{
@@ -122,24 +114,15 @@ a:hover{
     margin-top: auto;
 }
 
-
-#skills{
-    position: relative;
-    display: none;
-}
-
-.pull-right, .pull_left{
-    margin:auto;
-}
-
 #contact_footer{
     height:auto;
 }
 
 .copyright{
-	margin-top: 20px;
-    margin-bottom: 0;
-	background-color: #f44336;
+    
+    margin: 20px -10px 0px -10px !important;
+	
+	background-color: #85C7DE;
 
 }
 
@@ -149,12 +132,62 @@ a:hover{
     overflow: hidden;
 }
 
+.match-my-cols{
+    background-color: #E0E1E9;
+    margin-top: 0;
+}
 
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 410px) {
    p{
     font-size: 16px !important;
    }
+
+   .contact_info{
+    font-size: 20px !important;
+   }
 }
 
+
+@media screen and (max-width: 321px) {
+    .contact_info{
+        font-size: 17px !important;
+   }
+}
+
+@media screen and (max-width: 412px) {
+    .jumbotron{
+        height: 85vh;
+    }
+}
+
+
+/*@media screen and (min-width: 1023px) {
+
+p, .heading{
+    font-size: 35px !important;
+}
+.contact_info{
+    font-size: inherit !important;
+}
+
+}*/
+
+
+
+/*@media screen and (min-width: 710px) {
+
+.contact_info{
+    font-size: 40px !important;
+   }
+
+}*/
+
+@media screen and (min-width: 1020px) {
+
+    #footer_contact{
+        align-content: center !important;
+    }
+}
 
