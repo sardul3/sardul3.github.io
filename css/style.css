@@ -27,7 +27,7 @@ img{
     width: 100%;
 }
 
-i a:hover{
+a i:hover{
 	color:red;
 }
 
